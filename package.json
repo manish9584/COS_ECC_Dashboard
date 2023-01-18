@@ -1,0 +1,21 @@
+{
+  "name": "cos_ecc_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manish9584/COS_ECC_Dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manish9584/COS_ECC_Dashboard/issues"
+  },
+  "homepage": "https://github.com/manish9584/COS_ECC_Dashboard#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
+}
