@@ -13,7 +13,10 @@ test ('Dash', async function({browser})
     
     //GoTo Dashboard Section
     await page.locator('.fa-caret-down').nth(13).click();
-    await page.locator("[href ='/angular/ecc/dashboard']").click();
-    //await page.locator('.ng-value-container').nth(0).click();
+    //await page.pause();
+    await page.locator("[href*='angular/ecc/dashboard']").click();
+    //await page.pause();
+
+    await page.locator(".ng-input").nth(0);
     await page.pause();
 })
