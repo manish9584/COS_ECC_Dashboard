@@ -17,6 +17,9 @@ test ('Dash', async function({browser})
     await page.locator("[href*='angular/ecc/dashboard']").click();
     //await page.pause();
 
-    await page.locator(".ng-input").nth(0);
-    await page.pause();
+    await page.locator(".ng-input").nth(0).click();
+    //await page.pause();
+    await page.locator('.ng-option').nth(13).click();
+    //await page.pause();
+    
 })
