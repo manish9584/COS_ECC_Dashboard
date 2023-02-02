@@ -25,9 +25,9 @@ test ('Dash', async function({browser})
 })
 const {test} = require('@playwright/test')
 
-test ('Dashboard_Main', function({browser})
-{
-    const context = browser.newContext()
-    const page = context.newPage()
-    page.goto("https://test-ecc.tangandcompany.com/Account/Login?returnUrl=%2f")
-})
+//test ('Dashboard_Main', function({browser})
+// {
+//     const context = browser.newContext()
+//     const page = context.newPage()
+//     page.goto("https://test-ecc.tangandcompany.com/Account/Login?returnUrl=%2f")
+// })
