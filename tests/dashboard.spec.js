@@ -25,7 +25,7 @@ test ('Dash', async function({browser})
 })
 const {test} = require('@playwright/test')
 
-test ('Dashboard_Main', function({browser})
+test.only ('Dashboard_Main', function({browser})
 {
     const context = browser.newContext()
     const page = context.newPage()
