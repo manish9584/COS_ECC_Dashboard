@@ -23,7 +23,7 @@ test ('Dash', async function({browser})
     //await page.pause();
     
 })
-const {test} = require('@playwright/test')
+//const {test} = require('@playwright/test')
 
 
 test.only ('Dashboard_Main', function({browser})
